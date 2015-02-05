@@ -1,3 +1,4 @@
+//creates fifty x & y points
 int x[] = new  int[50];
 int y[] = new int[50];
 // The statements in the setup() function 
