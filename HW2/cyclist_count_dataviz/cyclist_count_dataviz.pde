@@ -87,10 +87,10 @@ void draw(){
    
    x+=35;//moves over the x coordinate by 20 to start th next rectangle bar
   }
-  textSize(32);
-  text("Cyclist Data Visualization over the Brooklyn Bridge by Years", 0, 450); 
-  fill(0, 102, 153);
-  for (int i=0; i<data.length; i++){
+  textSize(32); //sets text size
+  text("Cyclist Data Visualization over the Brooklyn Bridge by Years", 0, 450); //adds title to the bottom
+  fill(0, 102, 153);//add color property
+  for (int i=0; i<data.length; i++){//adds the years from the array over the # of cyclists bar graph
   textSize(10);
   fill(255);
   text(data[i][0], x-980, 15 );
